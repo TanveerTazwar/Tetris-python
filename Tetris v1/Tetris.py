@@ -31,7 +31,7 @@ clock = pygame.time.Clock()  # We need this clock object to control the frame ra
 game = Game()
 
 GAME_UPDATE = pygame.USEREVENT
-pygame.time.set_timer(GAME_UPDATE, 200)
+pygame.time.set_timer(GAME_UPDATE, 350)
 
 # Game loop, game-loop handles mainly three things
 # (i) Event handling: checks for the changes and inputs from users
